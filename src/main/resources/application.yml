@@ -1,0 +1,19 @@
+stmp:
+  host: smtp.163.com
+  account: c1380137@163.com
+  password: duan1380137
+  sendMailTo: "[{\"week\":8,\"email\":\"747169800@qq.com\"}]"
+
+mail:
+  smtp:
+    auth: true
+    timeout: 25000
+
+logging:
+  level: debug
+  path: d:/check_server_status/logs/
+
+checkServer:
+  urls: https://enterbj.zhongchebaolian.com/enterbj/platform/enterbj/submitpaper_03
+
+#https://enterbj.zhongchebaolian.com/enterbj-write/platform/enterbj/submitpaper_03,
